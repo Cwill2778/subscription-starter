@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nailed It Property Solutions - Home Care on Autopilot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom modal hidden state */
+        .hidden { display: none; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                <h1 class="text-2xl font-bold text-slate-900">Nailed It <span class="text-blue-600 text-sm font-semibold uppercase block -mt-1 tracking-widest">Property Solutions</span></h1>
+            </div>
+            <nav>
+                <a href="#memberships" class="text-slate-600 hover:text-blue-600 font-medium">Memberships</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="bg-blue-900 text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-6">Stop stressing over home repairs.</h2>
+            <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">Put your home care on Autopilot today. Shift your home from a source of stress to a sanctuary of predictability with our proactive maintenance tiers.</p>
+            <a href="#memberships" class="bg-yellow-500 hover:bg-yellow-400 text-slate-900 font-bold py-3 px-8 rounded-full text-lg transition-colors shadow-lg">Get Started Today</a>
+        </div>
+    </section>
+
+    <section id="memberships" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h3 class="text-3xl font-bold text-slate-900 mb-4">Choose Your Level of Protection</h3>
+            <p class="text-slate-600 max-w-2xl mx-auto">Every membership tier is built on our complete preventative maintenance baseline: HVAC, Electrical, Plumbing, and Exterior Defense.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            
+            <div class="bg-white rounded-2xl shadow-lg border border-slate-200 overflow-hidden flex flex-col">
+                <div class="bg-blue-600 p-6 text-center text-white">
+                    <h4 class="text-xl font-bold uppercase tracking-wide">Essential</h4>
+                    <p class="text-sm text-blue-100 mt-1">Preventative Care</p>
+                    <div class="mt-4 flex justify-center items-baseline">
+                        <span class="text-5xl font-extrabold">$99</span>
+                        <span class="text-xl ml-1">/mo</span>
+                    </div>
+                </div>
+                <div class="p-6 flex-grow">
+                    <div class="bg-slate-100 text-center p-3 rounded-lg font-semibold mb-6">
+                        1 Included Labor Hour
+                    </div>
+                    <ul class="space-y-3 text-slate-600 text-sm">
+                        <li class="flex items-start"><span class="text-green-500 mr-2">✔</span> The Complete Maintenance Baseline</li>
+                        <li class="flex items-start"><span class="text-green-500 mr-2">✔</span> Priority Scheduling</li>
+                        <li class="flex items-start"><span class="text-green-500 mr-2">✔</span> 10% Discount on quoted projects</li>
+                        <li class="flex items-start"><span class="text-green-500 mr-2">✔</span> Monthly HVAC & Plumbing Checks</li>
+                        <li class="flex items-start"><span class="text-green-500 mr-2">✔</span> Annual safety tests (Smoke & CO)</li>
+                    </ul>
+                </div>
+                <div class="p-6 bg-slate-50 border-t border-slate-100">
+                    <button onclick="openCheckout('Essential', 99)" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg transition">Subscribe Now</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-xl border-2 border-green-500 overflow-hidden flex flex-col transform md:-translate-y-4">
+                <div class="bg-green-600 p-6 text-center text-white relative">
+                    <div class="absolute top-0 right-0 bg-yellow-400 text-slate-900 text-xs font-bold px-3 py-1 rounded-bl-lg uppercase">Most Popular</div>
+                    <h4 class="text-xl font-bold uppercase tracking-wide">Peace of Mind</h4>
+                    <p class="text-sm text-green-100 mt-1">For busy families</p>
+                    <div class="mt-4 flex justify-center items-baseline">
+                        <span class="text-5xl font-extrabold">$199</span>
+                        <span class="text-xl ml-1">/mo</span>
+                    </div>
+                </div>
+                <div class="p-6 flex-grow">
+                    <div class="bg-green-50 text-green-800 text-center p-3 rounded-lg font-semibold mb-6 border border-green-200">
+                        3 Hours Included Labor
+                    </div>
+                    <ul class="space-y-3 text-slate-600 text-sm">
+                        <li class="flex items-start"><span class="text-green-500 mr-2">✔</span> Guaranteed 48-hr non-emergency response</li>
+                        <li class="flex items-start"><span class="text-green-500 mr-2">✔</span> 15% Discount on larger quoted projects</li>
+                        <li class="flex items-start"><span class="text-green-500 mr-2">✔</span> Proactive drain flow checks & snaking</li>
+                        <li class="flex items-start"><span class="text-green-500 mr-2">✔</span> Water heater flushes (doubles lifespan)</li>
+                        <li class="flex items-start text-xs text-slate-400 italic mt-4">* 90-Day Minimum Commitment</li>
+                    </ul>
+                </div>
+                <div class="p-6 bg-slate-50 border-t border-slate-100">
+                    <button onclick="openCheckout('Peace of Mind', 199)" class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-4 rounded-lg transition">Subscribe Now</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-lg border border-slate-200 overflow-hidden flex flex-col">
+                <div class="bg-slate-900 p-6 text-center text-white">
+                    <h4 class="text-xl font-bold uppercase tracking-wide text-yellow-500">VIP Concierge</h4>
+                    <p class="text-sm text-slate-300 mt-1">Unparalleled Home Care</p>
+                    <div class="mt-4 flex justify-center items-baseline">
+                        <span class="text-5xl font-extrabold">$399</span>
+                        <span class="text-xl ml-1">/mo</span>
+                    </div>
+                </div>
+                <div class="p-6 flex-grow">
+                    <div class="bg-yellow-50 text-yellow-800 text-center p-3 rounded-lg font-semibold mb-6 border border-yellow-200">
+                        5 Hours Included Labor
+                    </div>
+                    <ul class="space-y-3 text-slate-600 text-sm">
+                        <li class="flex items-start"><span class="text-green-500 mr-2">✔</span> 24/7 Priority Emergency Dispatch</li>
+                        <li class="flex items-start"><span class="text-green-500 mr-2">✔</span> $60 Member Rate for emergencies (Save 55%)</li>
+                        <li class="flex items-start"><span class="text-green-500 mr-2">✔</span> 20% Discount on quoted projects</li>
+                        <li class="flex items-start"><span class="text-green-500 mr-2">✔</span> Annual gutter & driveway cleaning</li>
+                        <li class="flex items-start"><span class="text-green-500 mr-2">✔</span> Refrigerator coil & dryer vent vacuuming</li>
+                        <li class="flex items-start"><span class="text-green-500 mr-2">✔</span> Off-site material sourcing and pick-up</li>
+                    </ul>
+                </div>
+                <div class="p-6 bg-slate-50 border-t border-slate-100">
+                    <button onclick="openCheckout('VIP Concierge', 399)" class="w-full bg-slate-900 hover:bg-slate-800 text-white font-bold py-3 px-4 rounded-lg transition">Subscribe Now</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-slate-100 py-16 border-y border-slate-200">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-2xl font-bold text-center mb-8">How Your Labor Hours Work</h3>
+            <div class="grid md:grid-cols-4 gap-6 text-center text-sm text-slate-700">
+                <div class="bg-white p-4 rounded shadow-sm border border-slate-200">
+                    <strong class="block text-lg mb-2 text-blue-600">1. Consolidate</strong>
+                    Combine multiple minor requests into a single 'Honey-Do' list for maximum efficiency.
+                </div>
+                <div class="bg-white p-4 rounded shadow-sm border border-slate-200">
+                    <strong class="block text-lg mb-2 text-blue-600">2. Execute & Source</strong>
+                    Hours cover all execution time and off-site client-requested material sourcing.
+                </div>
+                <div class="bg-white p-4 rounded shadow-sm border border-slate-200">
+                    <strong class="block text-lg mb-2 text-blue-600">3. Deductions</strong>
+                    Time is deducted in minimum 1-hour blocks. Overages are billed at your discounted rate.
+                </div>
+                <div class="bg-white p-4 rounded shadow-sm border border-slate-200 border-b-4 border-b-red-500">
+                    <strong class="block text-lg mb-2 text-red-600">4. "Use It" Rule</strong>
+                    Hours <strong>do not roll over</strong>. This guarantees predictable scheduling availability for all members.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="checkoutModal" class="fixed inset-0 bg-slate-900 bg-opacity-75 flex items-center justify-center z-50 hidden">
+        <div class="bg-white rounded-2xl shadow-2xl max-w-md w-full mx-4 overflow-hidden">
+            <div class="bg-slate-50 p-6 border-b border-slate-200 flex justify-between items-center">
+                <h3 class="text-xl font-bold text-slate-900">Secure Checkout</h3>
+                <button onclick="closeCheckout()" class="text-slate-400 hover:text-slate-600">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+            </div>
+            
+            <form id="paymentForm" class="p-6 space-y-4" onsubmit="processPayment(event)">
+                <div class="bg-blue-50 border border-blue-200 rounded p-4 mb-4">
+                    <div class="flex justify-between items-center font-bold text-blue-900 text-lg">
+                        <span id="selectedTierName">Tier Name</span>
+                        <span id="selectedTierPrice">$0.00/mo</span>
+                    </div>
+                    <p id="commitmentWarning" class="text-xs text-red-600 mt-2 hidden font-semibold">Includes 90-Day Minimum Commitment</p>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-medium text-slate-700 mb-1">Full Name</label>
+                    <input type="text" required class="w-full border border-slate-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none" placeholder="Jane Doe">
+                </div>
+                
+                <div>
+                    <label class="block text-sm font-medium text-slate-700 mb-1">Service Address</label>
+                    <input type="text" required class="w-full border border-slate-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none" placeholder="123 Main St, City, ST">
+                </div>
+
+                <div class="pt-2">
+                    <label class="block text-sm font-medium text-slate-700 mb-1">Card Details</label>
+                    <div class="border border-slate-300 rounded-lg px-4 py-2 flex items-center bg-slate-50">
+                        <svg class="w-6 h-6 text-slate-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path></svg>
+                        <input type="text" required class="w-full bg-transparent focus:outline-none" placeholder="0000 0000 0000 0000">
+                    </div>
+                    <div class="grid grid-cols-2 gap-4 mt-2">
+                        <input type="text" required class="border border-slate-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none" placeholder="MM/YY">
+                        <input type="text" required class="border border-slate-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none" placeholder="CVC">
+                    </div>
+                </div>
+
+                <div class="flex items-start mt-4">
+                    <input type="checkbox" required class="mt-1 mr-2 cursor-pointer">
+                    <label class="text-xs text-slate-500 leading-tight">
+                        I agree to the Terms of Service, including the Unforeseen Decay policy, safety requirements, and that labor hours do not roll over.
+                    </label>
+                </div>
+
+                <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-lg transition mt-6 flex justify-center items-center">
+                    <span id="btnText">Start Autopilot</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const modal = document.getElementById('checkoutModal');
+        const tierNameLabel = document.getElementById('selectedTierName');
+        const tierPriceLabel = document.getElementById('selectedTierPrice');
+        const commitmentWarning = document.getElementById('commitmentWarning');
+        const btnText = document.getElementById('btnText');
+        
+        let currentPrice = 0;
+
+        function openCheckout(tierName, price) {
+            tierNameLabel.textContent = tierName;
+            tierPriceLabel.textContent = `$${price}/mo`;
+            currentPrice = price;
+            btnText.textContent = `Pay $${price} & Start Autopilot`;
+            
+            // Show minimum commitment warning for Peace of Mind tier
+            if(tierName === 'Peace of Mind') {
+                commitmentWarning.classList.remove('hidden');
+            } else {
+                commitmentWarning.classList.add('hidden');
+            }
+
+            modal.classList.remove('hidden');
+        }
+
+        function closeCheckout() {
+            modal.classList.add('hidden');
+            document.getElementById('paymentForm').reset();
+        }
+
+        function processPayment(e) {
+            e.preventDefault();
+            
+            // In a real app, this is where you'd integrate Stripe/Square/Auth.net
+            btnText.innerHTML = `<svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg> Processing...`;
+            
+            setTimeout(() => {
+                alert(`Success! Payment of $${currentPrice} approved. Welcome to Nailed It Property Solutions!`);
+                closeCheckout();
+                btnText.textContent = `Start Autopilot`;
+            }, 1500);
+        }
+    </script>
+</body>
+</html>
